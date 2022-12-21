@@ -1,0 +1,113 @@
+.wcu{
+    border: 10px;
+    font-size: 35px;
+    padding-left:80px ;
+    padding-bottom: 5px;
+
+}
+
+nav {
+	padding: 25px 15px 10px 5px;
+	display: flex;
+	font-size: 50px;
+	justify-content: space-between;
+	width: 100%;
+
+}
+
+nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+	nav ul {
+		margin: unset;
+		display: unset;
+		position: relative;
+		right: 30px;
+	}
+}
+
+nav li {
+	list-style-type: none;
+}
+
+nav li a {
+	margin: 0 15px;
+	padding: 10px 5px 15px 5px;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+	font-size: 1.2rem;
+}
+
+nav li a:hover {
+	color: #1e90ff;
+	border-bottom: 2px solid #1e90ff;
+}
+
+nav button {
+ /*remove default styling*/
+	/*outline: none;*/
+	border: none;
+	box-shadow: none;
+
+	min-width: 110px;
+	height: 50px;
+	background: #1e90ff;
+	color: white;
+	font-size: 0.9rem;
+	border-radius: 2px;
+	position: relative;
+	z-index: 1;
+}
+
+nav button span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 2px;
+	background: #1e90ff;
+	height: 100%;
+	z-index: -1;
+
+	/*javascript used for animation-name setting*/
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+}
+
+nav button:hover {
+	cursor: pointer;
+}
+
+@keyframes buttonEffect {
+	0% {
+		width: 0px;
+	}
+	100% {
+		width: 100%;
+	}
+}
+
+@keyframes buttonEffectRemoval {
+	0% {
+		width: 100%;
+	}
+	100% {
+		width: 0px;
+	}
+}
+
+@media (max-width: 1000px) {
+	nav li a {
+		padding-bottom: 0px;
+	}
+}
+.carlogo{
+    width: 10%;
+     height: auto;
+     padding: 15px 15px 0 15px;
+}

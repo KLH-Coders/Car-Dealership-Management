@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<style>
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}</style>
+    <link rel="stylesheet" href="regsucfail.css" type="text/css">
+
+    <title>DealsOnWheels</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="success">
+      <div class="msg-success">
+        <div class="letter"></div>
+      </div>
+      <div class="shadow"></div>
+      <h1 class="title">Success</h1>
+      <p class="message">Wohoo! Your message was delivered successfully.</p>
+      <button class="btn btn-success" onclick="location.href = 'login.html';" >Login!</button>
+    </div>
+  </div>
+</body>
+
+</html>
