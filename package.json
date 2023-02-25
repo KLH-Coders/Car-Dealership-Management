@@ -1,0 +1,17 @@
+{
+  "name": "Car-Dealership-Management ",
+"version": "1.0.0",
+"description" : "",
+"scripts": {
+"build": "echo \ "No build specified\" && exit",
+"test": "echo \ "No test specified\" && exit 1",
+"start": "node index.js"},
+"repository": {
+"type": "git",
+"url": "git+https : //github.com/N00BM45T3R69/Car-Dealership-Management.git"
+},"author": "",
+"license" : "ISC",
+"bugs":{
+"url": "https : //github.com/N0OBM45T3R69/Car-Dealership-Management/isues"},
+"homepage": "https://github.com/NeOBMAST3R69/Car -Dealership-Management#readme"
+}
