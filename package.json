@@ -3,8 +3,8 @@
 "version": "1.0.0",
 "description" : "",
 "scripts": {
-"build": "echo \ "No build specified\" && exit",
-"test": "echo \ "No test specified\" && exit 1",
+"build": "echo \ "index.html\" && exit",
+"test": "echo \ "index.html\" && exit 1",
 "start": "node index.js"},
 "repository": {
 "type": "git",
