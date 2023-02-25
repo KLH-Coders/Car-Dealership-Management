@@ -1,6 +1,6 @@
 "name" : "Car-Dealership-Management",
 "version ": "1.0.0"
-"description " : "
+"description " : "",
 "scripts": {
 "build" : "echo \ "No build specified\" && exit 1",
 "test" : "echo \ "No test specified\" && exit 1",
@@ -9,7 +9,7 @@
 "type" "git",
 "url": "git+https : //github.com/N0@BM45T3 R69/Car-Dealership -Management.git"
 4
-author": "",
+"author": "",
 "license": "ISC",
 "bugs": {
 "url": "https ://github. com/N0OBM45 T3R69/Car-Dealership-Management/issues "
